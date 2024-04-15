@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       All character assets taken from{' '}
-      <a
+      <a className={styles.footerlink}
         href="https://www.openpeeps.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Open Peeps
+        Open Peepsf
       </a>
       , by Pablo Stanley
     </footer>
